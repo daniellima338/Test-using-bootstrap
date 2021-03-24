@@ -1,0 +1,103 @@
+body {
+    font-family: "roboto", sans-serif;
+}
+
+.alert-container {
+
+}
+
+.callout-container {
+    height: 100vh; /* vh stand for viewport height */
+
+    background: url(../images/whisky-background.jpg) no-repeat bottom right fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  display: flex; 
+  align-items: center;
+  justify-content: center; 
+  /* This is used to move a box to the middle of the page  */
+
+  position: relative;
+
+}
+
+.quotes-container {
+
+}
+
+.features-container {
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* Buttons  */
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--red {
+    color: white;
+    background-color: #a77c2e;
+    border-color: #a77c2e;
+}
+
+.btn--red:hover, 
+.btn--red:active,
+.btn--red.focus,
+.btn--red:active:focus {
+    background-color: #6f4c0e;
+    border-color: #6f4c0e;
+}
+
+/* Block dividers  */
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+}
+
+.block-divider--brown {
+   background-color: #a77c2e; 
+}
+
+.block-divider--short {
+    width: 35px;
+}
+
+/* jumbotron */
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron-header {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.jumbotron .lead {
+    margin: 25px 0;
+    color: #cccccc;
+}
+
+
+.jumbotron .small, small {
+    font-size: 60%;
+    font-style: italic;
+    color: white;
+}
